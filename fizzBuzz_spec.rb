@@ -24,7 +24,7 @@ describe 'FizzBuzz' do
     expect(result).to eq(expec) 
   end
 
-  it 'should return ["1","2","Fizz","4","Buzz"] when input 15' do
+  it 'should return ["1","2","Fizz","4","Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz"] when input 15' do
     n = 15
     result = ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz"]
     expec = fizz_buzz(n)
