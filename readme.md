@@ -4,4 +4,4 @@
 
 
 1. 运行测试
-rspec fizzBuzz_spec.rb 
+  rspec fizzBuzz_spec.rb 
