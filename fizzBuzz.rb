@@ -1,4 +1,5 @@
 def fizz_buzz(n)
+  n = n.to_i
   result = []
   for i in 0...n
     if ((i+1) % 15 == 0) then
@@ -13,4 +14,6 @@ def fizz_buzz(n)
   end
   return result
 end
+
+puts fizz_buzz(ARGV[0])
 
